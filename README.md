@@ -13,17 +13,19 @@ de QA, Analsita de datos, Ciencia de datos, Desarrollo Web, Analista funcional, 
 
  Referentes/ Modelos :
 
- Los E-Comerce seleccionados para estudiar sus estrcuturas para tener referencias de las mismas son los siguientes:
+ Los E-Comerce seleccionados nos sirviero de guia para  estudiar sus estrcuturas y referenciando estos pudimos conseguir diseñar el nuestro:
  
 MercadoLibre :
 ![scrnli_10_10_2023_08-22-01](https://github.com/Meruem69/grupo_4_InnoTech/assets/118305060/690e6ee3-1a6c-4e42-a4da-5479e1325553)
+Mercado libre es uno de los grandes E-comerce el cual tiene un diseño amigable, con colores llamativos, una de las partes que nos llamo la atencion que al final de la pagina tiene una seccion donde la busqueda por caracteristicas esta organizado por medio de iconos que lo hacen agradable a la vista. Y en tanto su registro y login rescatamos sus simplicidad en el diseño pero que cuenta con direfetntes funcionalidades en las peticiones o formas de ingresar a la plataforma.
 
 MediaMarkt :
 ![scrnli_4_10_2023_12-53-22](https://github.com/Meruem69/grupo_4_InnoTech/assets/118305060/a55db73b-7bba-4118-8119-15036be80c54)
+MeiaMarkt otro gigante que tomamos como referencia, nos llamo la atencion el carrucel de imagenes donde muestra las promociones, productos y servicios y que cambia automaticamente en un periodo determinado de tiempo. Lo que comparamos con otros tambien fue la simplicidad del carrito de compra sin necesidad de tener una interfaz grafica muy atractiva visualmente pero que ofrece varias opciones, funcionalidades a la hora de realizar las compras ademas de los diferentes medios de pagos.
 
 Amazon :
 ![scrnli_10_10_2023_08-27-39](https://github.com/Meruem69/grupo_4_InnoTech/assets/118305060/ab9bcf87-ce4d-4eba-b739-dde01bf98899)
-
+Amazon tambien es uno de los que tomamos como referencia pero a partir de aqui vemos que los E-comerce tiene direntes maneras de venderse, en el caso de amazon destacamos l gama de colores usados en su homepage y el ecomerces que permite tener ese sentido de que no hemos abandonado la pagina principla ademas del extencion de carrito en la pagina principal.
 AliExpress :
 ![scrnli_9_10_2023_17-34-30](https://github.com/Meruem69/grupo_4_InnoTech/assets/118305060/3ce8c9d1-7d41-4df5-a43b-37bebabace3d)
 
