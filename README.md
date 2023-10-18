@@ -11,6 +11,7 @@ Nahuel Batallan: Soy estudiante de la Carrera de profesorado en ciencias de la e
 de QA, Analsita de datos, Ciencia de datos, Desarrollo Web, Analista funcional, Srum Master, y lo que conlleva con ello entre las habilidades blandas o metodologias agiles como tambien los conocmiento tecnicos ya sea lenguajes como Python, JavaScript o matices y automatizacion.
 
 Roberto Ponce: Tengo 20 años, soy Tecnico Maestro mayor de obras, trabajo como encargado en un comercio, tengo conocimiento y cuento con capacitacion contante en areas como marketing, ventas y administracion. Siempre estuve interesado en la programacion, gracias a DigitalHouse pude dar el primer paso en el desarrollo web por lo que estoy motivado en avanzar con nuevos conocimientos como profesional. 
+Pablo Marcelo Carrizo:Comerciante, actualmente estoy a cargo de un emprendimiento del sector turistico, siendo casi personal unico cumplo diversas funciones, segun el nivel complejidad. Tome pequeñas capacitaciones de desarrollo web (HTML, CSS),logica de programacion en distintos momentos.
 
  Referentes/ Modelos :
 
