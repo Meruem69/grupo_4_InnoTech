@@ -6,7 +6,8 @@ Para la seleccion del tema nos basamos en le necesidad de las personas de catama
 capital pero para ser masa especificos esta orientado a aquellas personas del interior que no tienen la posibilidad de estar tan informados y que viajan horas para poder encontrar unas solucion a sus problemas como reparacion o compras de aparatos electronicos. El objetivo es vender productos y servicios ofrecidos por distintas tiendas de la zona comparando precios y experiencias de ventas. Esto queremos lograr como objetivo principal de ser posible, pero sino en primera instancia solo vender productos electronicos.
 
  ## Logo y Nombre de la pagina:
- ![Logo](https://github.com/Meruem69/grupo_4_InnoTech/assets/118305060/98955f26-64f0-4e32-a2b4-a9573b8ae7a1)
+ ![Logo](https://github.com/Meruem69/grupo_4_InnoTech/assets/118305060/89fe90ce-27c0-49b0-9148-46ebdc2834e0)
+
 
  ##  Descripcion de los integrantes del Grupo:
 
