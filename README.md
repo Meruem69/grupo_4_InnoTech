@@ -5,10 +5,6 @@
 Para la seleccion del tema nos basamos en le necesidad de las personas de catamarca capital y del interior de la provincia en comprar productos en la capital, ademas de adquirir servicios de reparacion de los mismos, el publico destinado es gente que vive en la
 capital pero para ser masa especificos esta orientado a aquellas personas del interior que no tienen la posibilidad de estar tan informados y que viajan horas para poder encontrar unas solucion a sus problemas como reparacion o compras de aparatos electronicos. El objetivo es vender productos y servicios ofrecidos por distintas tiendas de la zona comparando precios y experiencias de ventas. Esto queremos lograr como objetivo principal de ser posible, pero sino en primera instancia solo vender productos electronicos.
 
- ## Logo y Nombre de la pagina:
- ![Logo](https://github.com/Meruem69/grupo_4_InnoTech/assets/118305060/89fe90ce-27c0-49b0-9148-46ebdc2834e0)
-
-
  ##  Descripcion de los integrantes del Grupo:
 
 Nahuel Batallan: Soy estudiante de la Carrera de profesorado en ciencias de la educacion e Ing. en informatica. Me encuentro capacitandome constantemente en el mundo del IT, he pasado por diferentes areas y tengo conocimientos basicos del area
