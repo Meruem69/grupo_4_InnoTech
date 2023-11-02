@@ -1,0 +1,25 @@
+{
+  "name": "proyectofinal",
+  "version": "1.0.0",
+  "description": "E-comerce",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Meruem69/grupo_4_InnoTech.git"
+  },
+  "keywords": [
+    "E-comerce"
+  ],
+  "author": "Nahuel Batallan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Meruem69/grupo_4_InnoTech/issues"
+  },
+  "homepage": "https://github.com/Meruem69/grupo_4_InnoTech#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}

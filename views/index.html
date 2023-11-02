@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="/public/css/style.css">
+    <title>InnoTech</title>
+</head>
+<body>
+
+
+    <header>
+        <nav>
+            <a href="/views/index.html"><img src="/public/Images/Group 1.svg" alt="logo"></a>
+            <div class="menu">
+                <ul>
+                    <li><a href="#">Sobre nosotros</a></li>
+                    <li><a href="/views/productDetail.html">Productos</a></li>
+                    <li><a href="#">Servicios</a></li>
+                </ul>
+            </div>
+            <div class="search">
+                <input type="search" placeholder="Búsquedas...">
+                <a href=""><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAA2BJREFUSEuNls+LHEUUxz+vZrLBJSokEPUiKhI9rIkYEA8moAGDCl7VgAvZmZ7eXY2HCB485aR4UWJcZ6p7EvFHEPwDxNOCEQ172Q2CKAYEiT/AYAwGNSbTr6R7prtrpnuW9KG6u6h63/fe9/vqlZA+ArhsyH5HE8Vr2hrBjXYI/ndmZ2QzfdU+m2KOfCldqkwUjkplUQ5n7Z1G3PMi8pSDPalTTsyGQT9LMJ8QdH4uI67xMcesAHz8zi1ydetH4nhmuM2RJSDNnmTDcBL3qaosEIb/TMtCunY8RdbOGmENYQ74D4fVZnKcheUfMyOn3rvHJI2jQADMiLCWDNjHYni9BBnxUY0ATGQ/BF5AuKCYgwTBd5PeZfuieLcR/Ry4A5G3tN15pT7VwpCDdOjZB4zhG2Cgog/TXtoYMz7Jet/uN44vgGtqmnfTav06VE5ViNmMiewJEV5y8K4G4ZFKyDWJNrE9DRxC5DXX7ryR2/ZlXXBg4t55kHvVyRyd8NtSy36ZjOt9y8neY4myKrgvNVjcP+F8JggPwP4NzOovvzU4dkwrDtdIXfr97aLJHwiXNAh3jBWpl6lhimL7l8DNydabtjE/n4Jtpr5hrldWtpmZ5hXgogbhzlqAnBcT2XMIezRhL4vh+jTrPo/E8SMGPetglSA8MEzR2IqRijKSe2+KyKsO6WkQLvkc+IT7MjGx/QDcPJgTGgQv16qowIuiXQ1x3ztICpmOOzMeVBzvM+iZNFXq2CthuF5VEWUEaWgm6p1EWAB+UidPEHZ+KA5G33wcPWhwaaHdBlgNwsVpvpSFlp6w1s6KYQ3cHMhVHF1tDt5m4cULmf0o2mVwRxFa4JqZDB1nk0bjoLTaVzaVaUGPtbeKcFqEpzOlyCRtGdRlcK8L8pxzPISwoc2Zxzl8+HLd0TJe2/lft3uXNM0hEZ5E2e2Ef52wLuq+1oGusLz8J/3+dqPJaqo+gXOJNA7Qbl/yQaoNp9JpaiMo5ZiCuMFXgtzvDOf1mj4qS0u/5w1yCOAbnQZQtMC8TXrA3e7ORtOccXCfiLSSdudUXnReR7uh0vKkPnF2vL9yu7m+5VntdI779eZF4FOxWQFMFGtN9OUFYNT/inCKW8IkTfktYRof49FPtoXCdR/5hrmp1WAJ+D8oqHUwmtMjaQAAAABJRU5ErkJggg=="/></a>
+            </div>
+            <div class="buttons">
+                <button><a href="/views/register.html"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAnRJREFUSEuNVTGL1FAQ/mbWs1ALFcHuwNLKRiv1F4g2omDhwbGbPFzxOgu92vsBwh37khzXWMidlf4DwUawsRBs7BURFUE83TeS7Esy2eRtNsUSJm/mm5nv2+8RARD/QxAI8qcIFG/hp3mmO4OKSv4JJeSHpGqiG7ijvA8FAXTn9ZSdvbSG1HAKoFWyOdt81twGQ58rAE4nUiwjTwzA9rJT575zkblYni8KcmJnXHewWsQ1sH/vPl98/OIiczYvTFpFeXlO7RMAjwm0O43jUa+YVEOcJY8gsgXgmYvN3TxXAfiTaXqO4T4B+OUcTsOYvz16rYTN6eS1AFchfMeZ+Hkuvfa2CRgk9q0Al4hxezo0Bz38zgCsPUaMnwBYHE6JMT8aHFSryPmwkwcgeiqCVxKbGyEd1sCUN3VTIC+I6I2L4isll7MJ1J+i+LC3d5L/HX7NQd3K0TO0vv5dJzTePYmc2gyQIYBNicxWE8Cj1FYBUGpfEnC96r4QR4eUmrIWx9PzNBx/LC2nQbLe9SCzt0SwXw24EEByQX4GZHMa3dvVYm+sqF4XAXaywoxvAE448AXE0XvNkzenHoF1qUjrOrEWhJgg+9Pfh2vY2PizrGQrh9ZKqF3Tl7F2lRkfCDg+22mHj6iQi0wt+2XddJDZaxA8FMFlEI6ELRGYATQl2eYgtIOWZy+CUtLXXtRaka/BWbINkTGIdtwovl+WHmTJthRx3nGjqIrPQ4d589NyaiuTlchQabtF3HPQ2L+6SRY4fzkmgTPrJ9Cd+riTMVhPpq/Y8moJX6nd02k+QpeIz1xMcohYH9fW0m2I5R+tVainraWVRvgPpmIcMZwFengAAAAASUVORK5CYII="/></a></button>
+                <button><a href="/views/login.html"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAA1JJREFUSEuNVl2oTWkYfp5v7TNOyk9JfsIoQqNwIZRcoZCr4+eWM85a6/g5KVPTFHJCXDv+1tr76DB3yiRKJCmZXBAlF5yaIRKSdHJDc/b3vdP63Wut8+0x+2K39vut93nf53l/vk1YPwQg6Um7Z6B4YsdJ3rF8CEIsIVLIMcgWe8FUTqXoHIQdjiNdADeKYBmIuenxKwieUOGWfvv+Kvr7m20ZtKNZq9fXGUoAYF4759T+wgh74Xn3kt8p+xKDCoJqhAcBHINEb8dfkKgkbQQFoCH8xXjeqaocjAMVorEeHgblqB0tDWYpf2xS6DO7/DOtfIkkQGqpNYL1BrydEG3ZiwTH2MvMjBGuouc9SpKOuGdoR/qVM3PGMyF+qmpOYESI34wzei1yoa5thcgJghOqzUziT9Pjr8ntmUROPegS8I8EvKI7sdO4/qWcaqRGI9wL4Exsy2qTPhvhanjeg6TgmZ6D4RUKtiQO5QDGYCp6/U/RWS5RGM5QCu+yhCo1GzCevz+WKHNQjfANgNl5wLwGAmnKNNmz+2ORAYbOTlfN2ntbAAKPtecvzxKKg6t68JVgZ6JdtVvkZ+31DuXtFklUD3pBni9J1PL9rF1/SlzeAoMvACaUMmrpO0Lhr1rra+w0iqMdXYA5CXKiddEIvmjPn1QNMAxggS3A/1lqlVZ+rl0/7sa8yKoRXiSww7JDDYCnEDwE5UM61dNBrACwNB6vytwQGNSu77a6iIBTDzYJeKNCedjQ2Yyenr+skxeGi5SDmxDMLfopqLVNz70bF7lI32mET0WwJAIjILqm56N7z0ubzrntwrmFyjgvYpwYkA+1663MEirtotpgsNYY3onmIAmBy6bjh53s7v6WSZdPfgQ2NNSJ0X9+J2VbqrYxotbAcx8U2z0btfiSYbJJj6cdF/m9JnCaCk+aTTyjUo4DLDY0yynoE2BWgeE+4/pnS0lUt2mUqaqHh0gcTQe3IH95PgrAmsAB7fkDyYLLbsPCqqh2Qm0w2GAMQxBzWmysAYYNlAvXvZ9kUr7DS1fImH4fGBjnjB+3RUQ2AVwCkR/BuEB/g/KYRt3Ukydfx/btEYMqdrzvS0W2d4tlzCyXfvFPQmXo/gP2O7dO67j8L6SFSPwLi6tkMRsYL+kAAAAASUVORK5CYII="/><br> Ingreser</a></button>
+            </div>
+        </nav>
+    </header>
+
+
+   <main>
+
+
+    <section>
+        <div class="slide">
+            <div class="slide-inner">
+                <input class="slide-open" type="radio" id="slide-1" 
+                      name="slide" aria-hidden="true" hidden="" checked="checked">
+                <div class="slide-item">
+                    <img src="/public/Images/Banners/1600w-_OEo5pXbKio.webp">
+                </div>
+                <input class="slide-open" type="radio" id="slide-2" 
+                      name="slide" aria-hidden="true" hidden="">
+                <div class="slide-item">
+                    <img src="/public/Images/Banners/plantilla-publicacion-venta-redes-sociales-plana_23-2149055548.avif">
+                </div>
+                <input class="slide-open" type="radio" id="slide-3" 
+                      name="slide" aria-hidden="true" hidden="">
+                <div class="slide-item">
+                    <img src="/public/Images/Banners/sale-electronics-banner-background-free-vector.jpg">
+                </div>
+                <label for="slide-3" class="slide-control prev control-1">‹</label>
+                <label for="slide-2" class="slide-control next control-1">›</label>
+                <label for="slide-1" class="slide-control prev control-2">‹</label>
+                <label for="slide-3" class="slide-control next control-2">›</label>
+                <label for="slide-2" class="slide-control prev control-3">‹</label>
+                <label for="slide-1" class="slide-control next control-3">›</label>
+                <ol class="slide-indicador">
+                    <li>
+                        <label for="slide-1" class="slide-circulo">•</label>
+                    </li>
+                    <li>
+                        <label for="slide-2" class="slide-circulo">•</label>
+                    </li>
+                    <li>
+                        <label for="slide-3" class="slide-circulo">•</label>
+                    </li>
+                </ol>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="productos">
+        <div class="producto">
+            <img src="/public/Images/Productos/191-74f13aefbd079f522316675902144795-1024-1024.jpg" alt="Producto 1">
+            <p class="nombre-producto">Sansumg 29 <br> 40px 12px, 264gb, 4 ram <br> <strong>$4.800</strong> </p>
+        </div>
+        <div class="producto">
+            <img src="/public/Images/Productos/celular-xiaomi-redmi-note-11-pro-5g-8gb128g-gris.jpg" alt="Producto 2">
+            <p class="nombre-producto">Xiaomi note 11 <br> 54px 32px, 231gb, 5 ram <br> <strong>$65.000</strong></p>
+        </div>
+        <div class="producto">
+            <img src="/public/Images/Productos/celular_galaxy_a30s_64gb_negro_0001" alt="Producto 2">
+            <p class="nombre-producto">Galaxy Tunder <br> 40px 21px, 433gb, 7 ram <br> <strong>$73.000</strong></p>
+        </div>
+        <div class="producto">
+            <img src="/public/Images/Productos/D_NQ_NP_829520-MLA71087189500_082023-F.webp" alt="Producto 2">
+            <p class="nombre-producto">Qai Bios <br> 65px 43px, 543gb, 8 ram <br> <strong>$120.000</strong></p>
+        </div>
+        <div class="producto">
+            <img src="/public/Images/Productos/iphone14promax-637e89105ddd4.jpg" alt="Producto 2">
+            <p class="nombre-producto">Iphone 14 Pro Max <br> 42px 21px,532gb, 10 ram <br> <strong>$190.000</strong></p>
+        </div>
+        <div class="producto">
+            <img src="/public/Images/Productos/nokia13-600x600.jpg" alt="Producto 2">
+            <p class="nombre-producto">Nokia 12 <br> 90px 120px, 630gb, 32 ram <br> <strong>$782.000</strong></p>
+        </div>
+    </section>
+
+
+
+    <section>
+        <div>
+            <h3>Electrodomesticos</h3>
+        </div>
+        <section class="electro">
+            <div class="productos-container">
+                <div class="producto2">
+                    <img src="/public/Images/Productos/microondas.avif" alt="Producto 1">
+                    <p class="nombre-producto">Microondas <br> <strong>$5.300</strong></p>
+                </div>
+                <div class="producto2">
+                    <img src="/public/Images/Productos/lavaropas.webp" alt="Producto 1">
+                    <p class="nombre-producto">lavaropas <br> <strong>$4.800</strong></p>
+                </div>
+                <div class="producto2">
+                    <img src="/public/Images/Productos/lavaplatos.png" alt="Producto 1">
+                    <p class="nombre-producto">Lavaplatos <br> <strong>$4.800</strong></p>
+                </div>
+                <div class="producto2">
+                    <img src="/public/Images/Productos/horno pizero.jpg" alt="Producto 1">
+                    <p class="nombre-producto">Horno Pizero <br> <strong>$4.800</strong></p>
+                </div>
+                <div class="producto2">
+                    <img src="/public/Images/Productos/Heladera.webp" alt="Producto 1">
+                    <p class="nombre-producto">Heladera <br> <strong>$4.800</strong></p>
+                </div>
+
+                <div class="producto2">
+                    <img src="/public/Images/Productos/cocina.jpg" alt="Producto 1">
+                    <p class="nombre-producto">Cocina <br> <strong>$4.800</strong></p>
+                </div>
+                <div class="producto2">
+                    <img src="/public/Images/Productos/licuadora.webp" alt="Producto 1">
+                    <p class="nombre-producto">Licuadora <br> <strong>$4.800</strong></p>
+                </div>
+                <div class="producto2">
+                    <img src="/public/Images/Productos/batidora.webp" alt="Producto 1">
+                    <p class="nombre-producto">Batidora <br> <strong>$4.800</strong></p>
+                </div>
+            
+            </div>
+        </section>
+        
+    </section>
+
+
+
+        <section class="categorias">
+            <div class="categoria">
+                <a href="#"><img src="/public/Images/Iconos/bx-laptop.svg" alt="Electrodomésticos"></a>
+                <p>Laptops</p>
+            </div>
+            <div class="categoria">
+                <a href="#"><img src="/public/Images/Iconos/bx-mobile-alt.svg" alt="Electrodomésticos"></a>
+                <p>Celulares</p>
+            </div>
+            <div class="categoria">
+                <a href="#"><img src="/public/Images/Iconos/bx-fridge.svg" alt="Electrodomésticos"></a>
+                <p>Refrigeradores</p>
+            </div>
+            <div class="categoria">
+                <a href="#"><img src="/public/Images/Iconos/bx-joystick.svg" alt="Electrodomésticos"></a>
+                <p>Consolas</p>
+            </div>
+            <div class="categoria">
+                <a href="#"><img src="/public/Images/Iconos/bx-mouse-alt.svg" alt="Electrodomésticos"></a>
+                <p>Mouses</p>
+            </div>
+            <div class="categoria">
+                <a href="#"><img src="/public/Images/Iconos/bxs-keyboard.svg" alt="Electrodomésticos"></a>
+                <p>Teclados</p>
+            </div>
+            <div class="categoria">
+                <a href="#"><img src="/public/Images/Iconos/bx-radio.svg" alt="Electrodomésticos"></a>
+                <p>Redio</p>
+            </div>
+            <div class="categoria">
+                <a href="#"><img src="/public/Images/Iconos/bx-speaker.svg" alt="Electrodomésticos"></a>
+                <p>Equipos de musica</p>
+            </div>
+        </section>
+
+   </main>
+
+
+   <footer>
+    <div class="footer-left">
+        <a href="/views/index.html"><img src="/public/Images/Group 1.svg" alt="Logo de la empresa"></a>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam quo, ipsa culpa quidem et pariatur expedita quae fugiat nemo necessitatibus, voluptatem libero sapiente. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas iusto aliquid voluptatem nulla quaerat necessitatibus veniam est, at numquam architecto dolore odit provident laborum sequi! Rem quisquam aliquam error tenetur!
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem, reprehenderit, quidem amet illo minus porro commodi asperiores in modi ullam, quos repellendus nisi ratione voluptatibus at harum qui eius distinctio!
+        </p>
+    </div>
+    <div class="footer-center">
+        <h3>Contacto</h3>
+        <ul class="redes-sociales">
+            <li><a href="#"><img src="/public/Images/Iconos/bxl-facebook.svg" alt="Facebook"> Facebook</a></li>
+            <li><a href="#"><img src="/public/Images/Iconos/bxl-linkedin-square.svg" alt="Twitter"> Linkedin</a></li>
+            <li><a href="#"><img src="/public/Images/Iconos/bxl-instagram.svg" alt="Instagram"> Instagram</a></li>
+            <li><a href="#"><img src="/public/Images/Iconos/bxl-gmail.svg" alt="Instagram"> Gmail</a></li>
+        </ul>
+    </div>
+    <div class="footer-right">
+        <h3>Sobre nosotros</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti voluptatibus hic sed architecto, ipsa magnam. Placeat deserunt nobis, vitae sit earum nisi vel sunt officia blanditiis dolor cum ratione quo!. Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore eveniet magni ipsa earum atque, eos omnis quasi ipsam enim? Maiores magnam consequuntur, fuga doloribus accusantium culpa numquam inventore reprehenderit? Quisquam?
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea quod incidunt ipsa dolores sequi velit autem ab eligendi pariatur? Ad tempora magni eos voluptatum nobis nam, delectus aliquam harum eligendi!
+        </p>
+    </div>
+    <div class="descarga">
+        <img src="/public/Images/1200px-Android_dance.svg.png" alt="Icono de Android">
+        <a href="#"><img src="/public/Images/Google_Play-Logo.wine.svg" alt="Descarga 1"></a>
+        <a href="#"><img src="/public/Images/App_Store_(iOS)-Badge-Logo.wine.svg" alt="Descarga 2"></a>
+    </div>
+</footer>
+
+</body>
+</html>

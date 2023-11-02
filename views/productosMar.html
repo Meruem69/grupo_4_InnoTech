@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/public/css/style.css">
+    <title>InnoTech</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="/views/index.html"><img src="/public/Images/Group 1.svg" alt="logo"></a>
+            <div class="menu">
+                <ul>
+                    <li><a href="#">Sobre nosotros</a></li>
+                    <li><a href="#">Productos</a></li>
+                    <li><a href="#">Servicios</a></li>
+                </ul>
+            </div>
+            <div class="search">
+                <input type="search" placeholder="Búsquedas...">
+                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAA2BJREFUSEuNls+LHEUUxz+vZrLBJSokEPUiKhI9rIkYEA8moAGDCl7VgAvZmZ7eXY2HCB485aR4UWJcZ6p7EvFHEPwDxNOCEQ172Q2CKAYEiT/AYAwGNSbTr6R7prtrpnuW9KG6u6h63/fe9/vqlZA+ArhsyH5HE8Vr2hrBjXYI/ndmZ2QzfdU+m2KOfCldqkwUjkplUQ5n7Z1G3PMi8pSDPalTTsyGQT9LMJ8QdH4uI67xMcesAHz8zi1ydetH4nhmuM2RJSDNnmTDcBL3qaosEIb/TMtCunY8RdbOGmENYQ74D4fVZnKcheUfMyOn3rvHJI2jQADMiLCWDNjHYni9BBnxUY0ATGQ/BF5AuKCYgwTBd5PeZfuieLcR/Ry4A5G3tN15pT7VwpCDdOjZB4zhG2Cgog/TXtoYMz7Jet/uN44vgGtqmnfTav06VE5ViNmMiewJEV5y8K4G4ZFKyDWJNrE9DRxC5DXX7ryR2/ZlXXBg4t55kHvVyRyd8NtSy36ZjOt9y8neY4myKrgvNVjcP+F8JggPwP4NzOovvzU4dkwrDtdIXfr97aLJHwiXNAh3jBWpl6lhimL7l8DNydabtjE/n4Jtpr5hrldWtpmZ5hXgogbhzlqAnBcT2XMIezRhL4vh+jTrPo/E8SMGPetglSA8MEzR2IqRijKSe2+KyKsO6WkQLvkc+IT7MjGx/QDcPJgTGgQv16qowIuiXQ1x3ztICpmOOzMeVBzvM+iZNFXq2CthuF5VEWUEaWgm6p1EWAB+UidPEHZ+KA5G33wcPWhwaaHdBlgNwsVpvpSFlp6w1s6KYQ3cHMhVHF1tDt5m4cULmf0o2mVwRxFa4JqZDB1nk0bjoLTaVzaVaUGPtbeKcFqEpzOlyCRtGdRlcK8L8pxzPISwoc2Zxzl8+HLd0TJe2/lft3uXNM0hEZ5E2e2Ef52wLuq+1oGusLz8J/3+dqPJaqo+gXOJNA7Qbl/yQaoNp9JpaiMo5ZiCuMFXgtzvDOf1mj4qS0u/5w1yCOAbnQZQtMC8TXrA3e7ORtOccXCfiLSSdudUXnReR7uh0vKkPnF2vL9yu7m+5VntdI779eZF4FOxWQFMFGtN9OUFYNT/inCKW8IkTfktYRof49FPtoXCdR/5hrmp1WAJ+D8oqHUwmtMjaQAAAABJRU5ErkJggg=="/>
+            </div>
+            <div class="buttons">
+                <button><a href="/views/login.html"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAA1JJREFUSEuNVl2oTWkYfp5v7TNOyk9JfsIoQqNwIZRcoZCr4+eWM85a6/g5KVPTFHJCXDv+1tr76DB3yiRKJCmZXBAlF5yaIRKSdHJDc/b3vdP63Wut8+0x+2K39vut93nf53l/vk1YPwQg6Um7Z6B4YsdJ3rF8CEIsIVLIMcgWe8FUTqXoHIQdjiNdADeKYBmIuenxKwieUOGWfvv+Kvr7m20ZtKNZq9fXGUoAYF4759T+wgh74Xn3kt8p+xKDCoJqhAcBHINEb8dfkKgkbQQFoCH8xXjeqaocjAMVorEeHgblqB0tDWYpf2xS6DO7/DOtfIkkQGqpNYL1BrydEG3ZiwTH2MvMjBGuouc9SpKOuGdoR/qVM3PGMyF+qmpOYESI34wzei1yoa5thcgJghOqzUziT9Pjr8ntmUROPegS8I8EvKI7sdO4/qWcaqRGI9wL4Exsy2qTPhvhanjeg6TgmZ6D4RUKtiQO5QDGYCp6/U/RWS5RGM5QCu+yhCo1GzCevz+WKHNQjfANgNl5wLwGAmnKNNmz+2ORAYbOTlfN2ntbAAKPtecvzxKKg6t68JVgZ6JdtVvkZ+31DuXtFklUD3pBni9J1PL9rF1/SlzeAoMvACaUMmrpO0Lhr1rra+w0iqMdXYA5CXKiddEIvmjPn1QNMAxggS3A/1lqlVZ+rl0/7sa8yKoRXiSww7JDDYCnEDwE5UM61dNBrACwNB6vytwQGNSu77a6iIBTDzYJeKNCedjQ2Yyenr+skxeGi5SDmxDMLfopqLVNz70bF7lI32mET0WwJAIjILqm56N7z0ubzrntwrmFyjgvYpwYkA+1663MEirtotpgsNYY3onmIAmBy6bjh53s7v6WSZdPfgQ2NNSJ0X9+J2VbqrYxotbAcx8U2z0btfiSYbJJj6cdF/m9JnCaCk+aTTyjUo4DLDY0yynoE2BWgeE+4/pnS0lUt2mUqaqHh0gcTQe3IH95PgrAmsAB7fkDyYLLbsPCqqh2Qm0w2GAMQxBzWmysAYYNlAvXvZ9kUr7DS1fImH4fGBjnjB+3RUQ2AVwCkR/BuEB/g/KYRt3Ukydfx/btEYMqdrzvS0W2d4tlzCyXfvFPQmXo/gP2O7dO67j8L6SFSPwLi6tkMRsYL+kAAAAASUVORK5CYII="/>Ingreser</a></button>
+                <a href="/views/productoCar.html"><button><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAnRJREFUSEuNVTGL1FAQ/mbWs1ALFcHuwNLKRiv1F4g2omDhwbGbPFzxOgu92vsBwh37khzXWMidlf4DwUawsRBs7BURFUE83TeS7Esy2eRtNsUSJm/mm5nv2+8RARD/QxAI8qcIFG/hp3mmO4OKSv4JJeSHpGqiG7ijvA8FAXTn9ZSdvbSG1HAKoFWyOdt81twGQ58rAE4nUiwjTwzA9rJT575zkblYni8KcmJnXHewWsQ1sH/vPl98/OIiczYvTFpFeXlO7RMAjwm0O43jUa+YVEOcJY8gsgXgmYvN3TxXAfiTaXqO4T4B+OUcTsOYvz16rYTN6eS1AFchfMeZ+Hkuvfa2CRgk9q0Al4hxezo0Bz38zgCsPUaMnwBYHE6JMT8aHFSryPmwkwcgeiqCVxKbGyEd1sCUN3VTIC+I6I2L4isll7MJ1J+i+LC3d5L/HX7NQd3K0TO0vv5dJzTePYmc2gyQIYBNicxWE8Cj1FYBUGpfEnC96r4QR4eUmrIWx9PzNBx/LC2nQbLe9SCzt0SwXw24EEByQX4GZHMa3dvVYm+sqF4XAXaywoxvAE448AXE0XvNkzenHoF1qUjrOrEWhJgg+9Pfh2vY2PizrGQrh9ZKqF3Tl7F2lRkfCDg+22mHj6iQi0wt+2XddJDZaxA8FMFlEI6ELRGYATQl2eYgtIOWZy+CUtLXXtRaka/BWbINkTGIdtwovl+WHmTJthRx3nGjqIrPQ4d589NyaiuTlchQabtF3HPQ2L+6SRY4fzkmgTPrJ9Cd+riTMVhPpq/Y8moJX6nd02k+QpeIz1xMcohYH9fW0m2I5R+tVainraWVRvgPpmIcMZwFengAAAAASUVORK5CYII="/></button></a>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <div class="detalle-productos">
+                <h2>Detalle de Productos</h2>
+                <div class="logos-container">
+                    <img src="/public/Images/Marcas/samsung-logo-black-transparent.png" alt="Logo Empresa 1">
+                    <img src="/public/Images/Marcas/2560px-LG_logo_(2015).svg.png" alt="Logo Empresa 2">
+                    <img src="/public/Images/Marcas/2962084.svg" alt="Logo Empresa 3">
+                    <img src="/public/Images/Marcas/Nokia_wordmark.svg.png" alt="Logo Empresa 3">
+                    <img src="/public/Images/Marcas/Redmi_1-Logo.wine.svg" alt="Logo Empresa 3">
+                </div>
+                <div class="productos-container">
+                    <div class="producto">
+                        <img src="/public/Images/Productos/Nokia_105-DesignBlock.jpeg" alt="Producto 1">
+                        <h3>Nombre del Producto 1</h3>
+                        <p>Descripción del Producto 1</p>
+                        <a href="#">Ver más...</a>
+                    </div>
+                    <div class="producto">
+                        <img src="/public/Images/Productos/nokia13-600x600.jpg" alt="Producto 2">
+                        <h3>Nombre del Producto 2</h3>
+                        <p>Descripción del Producto 2</p>
+                        <a href="#">Ver más...</a>
+                    </div>
+                    <div class="producto">
+                        <img src="/public/Images/Productos/iphone14promax-637e89105ddd4.jpg" alt="Producto 3">
+                        <h3>Nombre del Producto 3</h3>
+                        <p>Descripción del Producto 3</p>
+                        <a href="#">Ver más...</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <div class="detalle-productos">
+                <h2>Detalle de Productos</h2>
+                <div class="logos-container">
+                    <img src="/public/Images/Marcas/samsung-logo-black-transparent.png" alt="Logo Empresa 1">
+                    <img src="/public/Images/Marcas/2560px-LG_logo_(2015).svg.png" alt="Logo Empresa 2">
+                    <img src="/public/Images/Marcas/2962084.svg" alt="Logo Empresa 3">
+                    <img src="/public/Images/Marcas/Nokia_wordmark.svg.png" alt="Logo Empresa 3">
+                    <img src="/public/Images/Marcas/Redmi_1-Logo.wine.svg" alt="Logo Empresa 3">
+                </div>
+                <div class="productos-container">
+                    <div class="producto">
+                        <img src="/public/Images/Productos/Nokia_105-DesignBlock.jpeg" alt="Producto 1">
+                        <h3>Nombre del Producto 1</h3>
+                        <p>Descripción del Producto 1</p>
+                        <a href="#">Ver más...</a>
+                    </div>
+                    <div class="producto">
+                        <img src="/public/Images/Productos/nokia13-600x600.jpg" alt="Producto 2">
+                        <h3>Nombre del Producto 2</h3>
+                        <p>Descripción del Producto 2</p>
+                        <a href="#">Ver más...</a>
+                    </div>
+                    <div class="producto">
+                        <img src="/public/Images/Productos/iphone14promax-637e89105ddd4.jpg" alt="Producto 3">
+                        <h3>Nombre del Producto 3</h3>
+                        <p>Descripción del Producto 3</p>
+                        <a href="#">Ver más...</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <div class="detalle-productos">
+                <h2>Detalle de Productos</h2>
+                <div class="logos-container">
+                    <img src="/public/Images/Marcas/samsung-logo-black-transparent.png" alt="Logo Empresa 1">
+                    <img src="/public/Images/Marcas/2560px-LG_logo_(2015).svg.png" alt="Logo Empresa 2">
+                    <img src="/public/Images/Marcas/2962084.svg" alt="Logo Empresa 3">
+                    <img src="/public/Images/Marcas/Nokia_wordmark.svg.png" alt="Logo Empresa 3">
+                    <img src="/public/Images/Marcas/Redmi_1-Logo.wine.svg" alt="Logo Empresa 3">
+                </div>
+                <div class="productos-container">
+                    <div class="producto">
+                        <img src="/public/Images/Productos/Nokia_105-DesignBlock.jpeg" alt="Producto 1">
+                        <h3>Nombre del Producto 1</h3>
+                        <p>Descripción del Producto 1</p>
+                        <a href="#">Ver más...</a>
+                    </div>
+                    <div class="producto">
+                        <img src="/public/Images/Productos/nokia13-600x600.jpg" alt="Producto 2">
+                        <h3>Nombre del Producto 2</h3>
+                        <p>Descripción del Producto 2</p>
+                        <a href="#">Ver más...</a>
+                    </div>
+                    <div class="producto">
+                        <img src="/public/Images/Productos/iphone14promax-637e89105ddd4.jpg" alt="Producto 3">
+                        <h3>Nombre del Producto 3</h3>
+                        <p>Descripción del Producto 3</p>
+                        <a href="#">Ver más...</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-left">
+            <img src="/public/Images/Group 1.svg" alt="Logo de la empresa">
+            <p>Estamos aqui para ayudarte a encontrar lo que buscas, somos proveedores de bienes y servicios. "InnoTech"</p>
+        </div>
+        <div class="footer-center">
+            <h3>Contacto</h3>
+            <ul class="redes-sociales">
+                <li><a href="#"><img src="/public/Images/Iconos/bxl-facebook.svg" alt="Facebook"> Facebook</a></li>
+                <li><a href="#"><img src="/public/Images/Iconos/bxl-linkedin-square.svg" alt="Twitter"> Linkedin</a></li>
+                <li><a href="#"><img src="/public/Images/Iconos/bxl-instagram.svg" alt="Instagram"> Instagram</a></li>
+                <li><a href="#"><img src="/public/Images/Iconos/bxl-gmail.svg" alt="Instagram"> Gmail</a></li>
+            </ul>
+        </div>
+        <div class="footer-right">
+            <h3>Sobre nosotros</h3>
+            <p>Somos una pequeña empresa que busca llevar a cabo los proyectos de sus clientes siempre fieles a los diseños que mas anhelan.</p>
+        </div>
+        <div class="descarga">
+            <img src="/public/Images/1200px-Android_dance.svg.png" alt="Icono de Android">
+            <a href="#"><img src="/public/Images/Google_Play-Logo.wine.svg" alt="Descarga 1"></a>
+            <a href="#"><img src="/public/Images/App_Store_(iOS)-Badge-Logo.wine.svg" alt="Descarga 2"></a>
+        </div>
+    </footer>
+
+    </body>
