@@ -49,9 +49,7 @@ Pablo Marcelo Carrizo:Comerciante, actualmente estoy a cargo de un emprendimient
   Es una de las plataformas que muestra en el inincio una imagen de fondo estatica que podria ser tranquilamente en movimiento ademas de ello tambien el buscador que pueden devolver informacion a traves de una imagen, como una prenda en particular, se encuentra en dicha imagen aumentando su visibilidad, como las anteriores pagina los colores armonizan en sus tonos siendo agradable a la vista, su parte de registros permite unirse a la pagina tanto como usuario o empresa.
 
 
-
-
-
+Aqui dejo adjunto el link del tablero de trabajo en este caso se esta usando el gestro de Trello: https://trello.com/invite/b/Hbxb3F1g/ATTIb74699e722b655df0bee7a0a6b676bfbCDB20681/desarrollo-de-e-comerce
 
 
 
